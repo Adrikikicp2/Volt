@@ -27,13 +27,13 @@ export default function Login(){
     }
 
     return (
-       <main >
-        <form className="login-app">
+       <main className="login-app">
+        <form >
             <label className="commonLabel">Please enter your email.</label><br/>
             <input className="commonForm" id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} /><br/>
             <label className="commonLabel">Please enter your password.</label><br/>
             <input className="commonForm" id="password" type="password" value={password} onChange={(e) => setPassword(e.target.value)}/><br/>
-            <button type="button" className="bg-amber-200 hover:bg-amber-400 transition-all ease-in-out"onClick={logIn}><br/>
+            <button type="button" className="bg-amber-200 hover:bg-amber-400 transition-all ease-in-out"onClick={logIn}>
           Log in
         </button>
         <button type="button" className="bg-amber-200 hover:bg-amber-400 transition-all ease-in-out" onClick={signUp}>
