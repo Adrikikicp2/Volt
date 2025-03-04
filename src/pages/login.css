@@ -2,13 +2,13 @@
 
 
 .loginApp{
-    @apply flex-auto bg-gradient-to-br from-emerald-800 to-blue-300
+    @apply flex-auto bg-gray-600
 }
 
 .commonLabel{
-    @apply flex-auto hover:transition-shadow focus:bg-amber-700
+    @apply flex-auto  transition-shadow
 }
 
 .commonForm{
-    @apply bg-gray-500 hover: from-20% to-35%
+    @apply bg-gray-500 
 }
